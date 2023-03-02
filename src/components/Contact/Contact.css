@@ -1,0 +1,63 @@
+.contact-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.phone{
+    margin-top:12px  ;
+    margin-bottom:12px;
+}
+.email{
+    margin-top:12px ;
+    margin-bottom:12px;
+}
+.Linkedin{
+    margin-top:12px ;
+    margin-bottom:12px;
+}
+.address{
+    margin-top:12px ;
+    margin-bottom:12px;
+}
+
+@media(min-width:769px){
+    .contact-content{
+        display: flex;
+        flex-direction: row;    
+        padding: 80px;   
+    }
+    .contact-content{
+        display: flex;
+        flex-direction: row;       
+    }
+    .phone{
+        margin-left:70px;
+        margin-right:70px;
+    }
+    .email{
+        margin-left:70px ;
+        margin-right:70px;
+    }
+    .Linkedin{
+        margin-left:70px ;
+        margin-right:70px;
+    }
+    .address{
+        margin-left:70px ;
+        margin-right:70px;
+    }
+
+}
+
