@@ -8,7 +8,7 @@ const Header = () => {
     <>
     <div className="header-container">
         <div className="header-content">
-            <h1>hy! Am🙎</h1>
+            <h1>hy! Am 🚀</h1>
             <h2 className='fullName'>Sushilkumar Chimankar</h2>
             <h2>
               I'm a {''} 
@@ -17,13 +17,13 @@ const Header = () => {
                 'Full Stack Developer 🙏',1000,
                 'Frontend Developer 🏋️‍♀️',1000,
                 'Backend Developer 🧑‍💻',1000,
-                'Reacr Developer 🔯',1000,
+                'React Developer 🔯',1000,
               ]}
               loop={Infinity}
               wrapper="b"
               />
             </h2>
-            <p>A passionate Full Stack Software Developer 🚀 having a special interest in Frontend technologies and have knowledge of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</p>
+            <p>A passionate Full Stack Software Developer having a special interest in Frontend technologies and have knowledge of building Web applications with JavaScript / Reactjs / Nodejs and using some other cool libraries and frameworks.</p>
            <div className="header-payment-container">
            <button  className='hire-1'>Hire me</button>
            {/* <button  className='hire'>View on Linkedin</button>
